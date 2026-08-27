@@ -3,7 +3,7 @@ from datetime import date, datetime
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
-app = FastAPI(title="Finance AI OS CUSTOMER #001", version="2.4.0")
+app = FastAPI(title="Finance AI OS", version="2.4.0")
 DATA_DIR = os.getenv("DEMO_DATA_DIR", "/app/demo_data")
 
 
@@ -65,7 +65,7 @@ def odoo_status():
 
 @app.get("/health")
 def health():
-    return {"ok":True,"service":"finance-ai-os-demo","odoo":odoo_status()}
+    return {"ok":True,"service":"finance-ai-os","odoo":odoo_status()}
 
 @app.get("/api/metrics")
 def metrics():
