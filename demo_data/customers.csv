@@ -1,0 +1,9 @@
+customer_id,name,credit_limit,risk_tier,owner
+C001,Atlas Retail SL,150000,high,Ana
+C002,Nova Logistics SA,100000,medium,Carlos
+C003,Iberia Components SL,85000,low,Ana
+C004,BluePeak SaaS SL,60000,low,Marta
+C005,Delta Industrial SA,120000,medium,Carlos
+C006,Orion Consulting SL,50000,medium,Marta
+C007,Nexo Distribución SL,140000,high,Ana
+C008,Terra Build SL,90000,high,Carlos

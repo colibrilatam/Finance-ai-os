@@ -1,0 +1,14 @@
+mcp_servers:
+  finance-ai-os:
+    url: "http://localhost:8090/mcp"
+    enabled: true
+    timeout: 60
+    connect_timeout: 20
+    supports_parallel_tool_calls: false
+    tools:
+      include:
+        - finance_health
+        - finance_metrics
+        - finance_alerts
+        - finance_roi
+        - finance_customer_profile

@@ -1,0 +1,24 @@
+customer:
+  code: CUSTOMER-001
+  name: "Mi Primer Cliente"
+  legal_name: ""
+  currency: EUR
+  timezone: Europe/Madrid
+  annual_credit_sales: 8000000
+  minimum_cash: 250000
+  dso_target_days: 45
+  pilot_mode: SHADOW
+  runtime: openclaw   # openclaw | hermes
+  erp: odoo          # odoo | holded
+  read_only: true
+  approval_required: true
+
+pilot:
+  start_date: ""
+  days: 30
+  baseline_days: 7
+  success:
+    dso_improvement_days: 2
+    manual_hours_saved_week: 5
+    overdue_reduction_pct: 5
+    forecast_variance_pct_max: 15

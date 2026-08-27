@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/mcp/1.0.0.json",
+  "mcpServers": {
+    "finance-ai-os": {
+      "type": "streamable-http",
+      "url": "http://localhost:8090/mcp"
+    }
+  }
+}
